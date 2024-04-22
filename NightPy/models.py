@@ -2,15 +2,12 @@
 
 
 class Channel:
-    def __init__(self, unique_id, display_name, joined, name, plan):
+    def __init__(self, unique_id, display_name, joined, name, provider):
         self.id = unique_id
         self.display_name = display_name
-        if joined.lower() == 'true':
-            self.joined = True
-        else:
-            self.joined = False
+        self.joined = joined
         self.name = name
-        self.plan = plan
+        self.provider = provider
 
 
 class CustomCommand:

@@ -104,7 +104,7 @@ class NightPy:
     def get_channel(self):
         data = self.api_request('channel', method='get')
         channel = data['channel']
-        return Channel(channel['_id'], channel['displayName'], channel['joined'], channel['name'], channel['plan'])
+        return Channel(channel['providerId'], channel['displayName'], channel['joined'], channel['name'], channel['provider'])
 
     """
     Makes Nightbot join (enter) the current user's channel
