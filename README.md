@@ -1,5 +1,5 @@
-#A python wrapper for Nightbot API
-###Forked by Artemis
+# A python wrapper for Nightbot API
+### Forked by Artemis
 
 API documentation : https://api-docs.nightbot.tv/
 
