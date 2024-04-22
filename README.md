@@ -1,23 +1,18 @@
-![alt text](http://www.iamgregamato.com/img/np_logo.svg)
-<p align=center>
-  <a href="https://badge.fury.io/py/NightPy">
-    <img src="https://badge.fury.io/py/NightPy.svg" alt="PyPI version" height="18">
-  </a>
-</p>
-
-A python wrapper for Nightbot API
+#A python wrapper for Nightbot API
+###Forked by Artemis
 
 API documentation : https://api-docs.nightbot.tv/
 
 
 ### Install 
-From PyPI:
+
+First, clone the repository
 ```bash
-pip install NightPy
+git clone https://github.com/Artemis6425/NightPy.git
 ```
-Using Distributed Wheel from GitHub:
+Then, navigate to that directory and run the `setup.py` file
 ```bash
-pip install NightPy-2018.1.1-py3-none-any.whl
+python setup.py install
 ```
 ### Usage
 ```python

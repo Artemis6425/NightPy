@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='NightPy',
-    version='2018.1.1',
+    version='2024.4.22',
 
     description='NightBot API wrapper.',
 
@@ -10,8 +10,8 @@ setup(
     url='https://www.IamGregAmato.com',
 
     # Author details.
-    author='Greg Amato',
-    author_email='amatobahn@gmail.com',
+    author='Aurora Rose',
+    author_email='aurorarose6425@gmail.com',
 
     # License
     license='Apache License v2.0',
@@ -26,7 +26,7 @@ setup(
         'Programming Language :: Python :: 3 :: Only',
     ],
     # Keywords
-    keywords=['NightPy', 'NightBot', 'Amatobahn', 'API'],
+    keywords=['NightPy', 'NightBot', 'Artemis', 'API'],
 
     packages=['NightPy'],
 
